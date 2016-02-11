@@ -86,7 +86,7 @@ header {
 	border-right: 0;
 }
 
-div.content {
+.content {
 	width: 608px;
 	border: 1px solid #ddd;
 	background-color: #fff;
@@ -95,7 +95,7 @@ div.content {
 	float: left;
 }
 
-div.content h2 {
+.content h2 {
 	font-size:28px;
 	font-weight: bold;
 	color: #4aaaa5;
@@ -108,7 +108,7 @@ div.content h2 {
 
 
 
-div.content p {
+.content p {
 	line-height: 1.75em;
 	margin-top: -7px;
 	margin-bottom: 26px;
@@ -116,7 +116,7 @@ div.content p {
 
 }
 
-div.sidebar h3 {
+.sidebar h3 {
 	font-size: 24px;
 	font-weight: bold;
 	border-bottom: 2px solid #ddd;
@@ -128,7 +128,7 @@ div.sidebar h3 {
 }
 
 
-div.sidebar {
+.sidebar {
 	width: 228px;
 	border: 1px solid #ddd;
 	background-color: #fff;
@@ -137,40 +137,40 @@ div.sidebar {
 	float: left;
 }
 
-div.sidebar img {
+.sidebar img {
 	width: 70px;
 	margin: 20px 4px 10px 0px;
 
 }
 
-div.sidebar img:hover {
+.sidebar img:hover {
 	opacity: 0.8;
 }
 
-div.sidebar a{
+.sidebar a{
 	text-decoration: none;
 }
 
-div.sidebar img#stackoverflow {
+.sidebar img#stackoverflow {
 	margin: 20px 0 10px 0;
 }
 
 
-div.footer {
+.footer {
 	border-top: 4px solid #4aaaa5;
 	background-color: #777;
 	padding: 30px 0 30px 0;
 	clear:both;
 }
 
-div.footer p {
+.footer p {
 	color: #fff;
 	font-size: 13px;
 	text-align: center;
 }
 
 
-img.profile-image {
+.profile-image {
 	width: 200px;
 	float: left;
 	margin: 0 10px 2px 0;
@@ -179,13 +179,13 @@ img.profile-image {
 }
 
 
-div.content p.label {
+.content p.label {
 	margin: 0;
 	font-size: 22px;
 	font-weight: bold;
 }
 
-div.content input, div.content textarea {
+.content input, .content textarea {
 	margin-bottom: 10px;
 	width: 597px;
 	max-width: 597px;
@@ -194,12 +194,12 @@ div.content input, div.content textarea {
 	border: 1px solid #ddd;
 }
 
-div.content textarea {
+.content textarea {
 	height: 200px;
 	width: 597px;
 }
 
-div.content input[type='submit'] {
+.content input[type='submit'] {
 	display:block;
 	margin-top: 5px;
 	width: 120px;
@@ -211,17 +211,17 @@ div.content input[type='submit'] {
 }
 
 
-div.project {
+.project {
 	float: left;
 	margin: 0 30px -20px 0;
 }
 
-div.project.even {
+.project.even {
 	float: left;
 	margin: 0 0 -20px 0;
 }
 
-div.project-banner {
+.project-banner {
 	width: 100%;
 	position: relative;
 	top: -70px;
@@ -230,7 +230,7 @@ div.project-banner {
 	background-color:rgba(74, 170, 165, 0.8);
 }
 
-div.project-banner a {
+.project-banner a {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 20px;
 	color: #fff;
@@ -238,11 +238,11 @@ div.project-banner a {
 	text-decoration: none;
 }
 
-div.project-banner a:hover {
+.project-banner a:hover {
 	color: #ddd;
 }
 
-div.project img:hover {
+.project img:hover {
 	opacity: 0.8;
 }
 
@@ -275,3 +275,187 @@ html, body {
 	height: 1em;
 }
 
+@media screen and (max-width: 980px) {
+
+	#menu {
+		margin-left: 505px;
+	}
+
+	.container {
+		width: 770px;
+		margin: 0 auto;
+	}
+
+	.content {
+		width: 55%;
+		margin: 20px 41px 20px 0;
+		padding: 0 20px 20px 20px;
+		float: left;
+	}
+
+	.sidebar {
+		width: 225px;
+		border: 1px solid #ddd;
+		background-color: #fff;
+		margin-top: 20px;
+		padding: 20px;
+		float: left;
+	}
+
+	.profile-image {
+		width: 410px;
+		float: none;
+		margin: 0 0 20px 0;
+		border: 1px solid #ddd;
+	}
+
+	.content input, .content textarea {
+		margin-bottom: 10px;
+		width: 400px;
+		max-width: 400px;
+		padding: 5px;
+		font-size: 16px;
+		border: 1px solid #ddd;
+	}
+
+	.content textarea {
+		height: 200px;
+	}
+
+	.project img {
+		width: 289px;
+	}
+
+	.project img {
+		width: 415px;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+
+	#menu {
+		margin-left: 490px;
+	}
+	
+	.container {
+		width: 765px;
+		margin: 0 auto;
+	}
+
+	.content {
+		width: 685px;
+		margin: 20px;
+		padding: 0 20px 20px 20px;
+		float: left;
+	}
+
+	.sidebar {
+		width: 685px;
+		border: 1px solid #ddd;
+		background-color: #fff;
+		margin: 20px;
+		padding: 20px;
+		float: left;
+	}
+
+	.profile-image {
+		width: 300px;
+		float: left;
+		margin: 0 20px 2px 0;
+		border: 1px solid #ddd;
+	}
+
+
+	.content input, .content textarea {
+		margin-bottom: 10px;
+		width: 675px;
+		max-width: 675px;
+		padding: 5px;
+		font-size: 16px;
+		border: 1px solid #ddd;
+	}
+
+	.content textarea {
+		height: 200px;
+	}
+
+	.project img {
+			width: 329px;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+
+
+	header {
+		position:static;
+		background-color: #fff;
+		border-bottom: 2px solid #ddd;
+		height: 130px
+	}
+
+	#name {
+		float: none;
+	}
+
+	#menu {
+		width:100%;
+		margin: 0;
+		padding: 20px 0 20px 0;
+		
+	}
+
+	#menu a {
+		text-decoration: none;
+		font-size: 18px;
+		color: #777;
+		padding: 0 75px 0 75px;
+		border-right: 1px solid #ddd;
+	}
+
+	#menu a:last-child {
+		padding: 0 0 0 75px;
+		border-right: 0;
+	}
+	
+	.container {
+		width: 630px;
+		margin: 0 auto;
+	}
+
+	.content {
+		width: 550px;
+		margin: 20px;
+		padding: 0 20px 20px 20px;
+		float: left;
+	}
+
+	.sidebar {
+		width: 550px;
+		border: 1px solid #ddd;
+		background-color: #fff;
+		margin: 20px;
+		padding: 20px;
+		float: left;
+	}
+
+
+	.content input, .content textarea {
+		margin-bottom: 10px;
+		width: 540px;
+		max-width: 540px;
+		padding: 5px;
+		font-size: 16px;
+		border: 1px solid #ddd;
+	}
+
+	.content textarea {
+		height: 200px;
+	}
+
+	.project img {
+		width: 560px;
+	}
+}
